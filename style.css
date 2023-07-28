@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    box-sizing: border-box;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.upper-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 420px;
+}
+.lower-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 180px;
+    background-color: green;
+}
+.chair-image{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 55%;
+    background-color: brown;
+    background-image: url("mobile-image-hero-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    gap: 2rem;
+    padding: 2rem;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+    padding-top: 8px;
+}
+.logo{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.upper-text{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.upper{
+    align-self: center;
+}
+.textbody{
+    font-size:x-small;
+    line-height: 1.1rem;
+}
+.action{
+    padding-right: 2rem;
+    letter-spacing: 1rem;
+}
+
+.hor-scroll{
+    display: flex;
+    flex-direction: row;
+    width: 8rem;
+    min-height: 60px;
+    background-color: black;
+    color: white;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+.left-lower-image{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    background-color: gray;
+    background-image: url("image-about-dark.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.lower-text{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+    background-color: white;
+    font-size: x-small;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 1rem;
+    letter-spacing: 1px;
+    
+}
+.lower-texthead{
+    padding-right: 13rem;
+}
+.right-lower-image{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+    background-color: gray;
+    background-image: url("image-about-light.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
