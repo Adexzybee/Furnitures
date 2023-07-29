@@ -72,7 +72,9 @@ a{
     font-size:x-small;
     line-height: 1.1rem;
 }
-
+.texthead{
+    font-size: xx-large;
+}
 .action{
     
     letter-spacing: 1rem;
@@ -133,37 +135,43 @@ a{
             display: none;
         }
     }
-    @media (max-width: 600px){
+    @media (max-width: 640px){
+        .wrap{
+            gap: 1rem;
+        }
         .upper-div{
             display: flex;
             flex-direction: column;
-            height: 70vh;
+            min-height: 100vh;
+            gap: 2rem;
 
         }
         .lower-div{
             display: flex;
             flex-direction: column; 
-            height: 100vh;          
+            min-height: 120vh;          
         }
         .chair-image{
             background-image: url("mobile-image-hero-1.jpg");
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: cover;
+            background-position: center center;
 
         }
         .upper-text-mobile{
             display: initial;
             align-self: center;
-            margin-top: 1rem;
             width: 90%;
             font-size: large;
-            padding-bottom: 1rem;
         }
         .upper-text{
             display: none;
         }
-        .mobile-texthead-upper{
-            padding-bottom: 1rem;
+        .mobile-textbody-upper
+        {
+            font-size: x-large;
+            padding-top: 1rem;
+            line-height:normal;
         }
         ul{
             display: none;
@@ -173,6 +181,7 @@ a{
             flex-direction: row;
             gap: 7rem;
             color: white;
+            margin: 2rem;
         }
         .logo{
             display: none;
@@ -195,17 +204,17 @@ a{
             width: 95%;
         }
         .lower-texthead{
-
-            font-size: large;
+            font-size: larger;
         }
         .hor-scroll-mobile{
             align-self: flex-end;
-            width: 100%;
-            height: 70px;
+            justify-content: end;
+            width: 20%;
+            height: 35px;
             color: white;
-            background-color: black;
-            padding-top: 2rem;
-            padding-left: 2rem;
+            background-color: black;              
+            padding: 10px;  
+            margin-left: auto;                        
         }
       
     }
