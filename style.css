@@ -142,36 +142,35 @@ a{
         .upper-div{
             display: flex;
             flex-direction: column;
-            min-height: 100vh;
+            min-height: 50rem;
             gap: 2rem;
-
         }
         .lower-div{
             display: flex;
             flex-direction: column; 
-            min-height: 120vh;          
+            min-height: 50rem;          
         }
         .chair-image{
             background-image: url("mobile-image-hero-1.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
-
         }
         .upper-text-mobile{
             display: initial;
             align-self: center;
-            width: 90%;
+            width: 95%;
             font-size: large;
+            padding-bottom: 1rem;
         }
         .upper-text{
             display: none;
         }
         .mobile-textbody-upper
         {
-            font-size: x-large;
             padding-top: 1rem;
-            line-height:normal;
+            line-height:1.5rem;
+            padding-bottom: 1rem;
         }
         ul{
             display: none;
@@ -192,13 +191,12 @@ a{
         .lower-text{
             display: flex;
             flex-direction: column;
-            flex-basis:39%;
             background-color: white;
             font-size: large;
             gap: 1rem;
             line-height: 1.5rem;
-            padding-left: 1rem;    
-            justify-content: center;    
+            padding-top: 1rem;   
+            padding-bottom: 1rem;
         }
         .lower-textbody{
             width: 95%;
